@@ -1,9 +1,12 @@
-lpackage com.amock.helloazure;
+package com.amock.helloazure;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.stereotype.Controller;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 @SpringBootApplication
 public class HelloAzureApplication {
